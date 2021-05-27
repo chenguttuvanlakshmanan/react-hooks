@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    justify-content: space-between;       
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+    margin:50px auto;
+    width:900px;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    color:white;
+    background-color: rgba(71, 71, 214, 0.788);
+    border-radius: 200px;  
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
+}
+
+.header > h1 {
+    padding: 20px
+}

@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    flex-direction:row;
+}
+
+/* .leftm{
+   align-self: flex-end;
+} */
+
+.box{
+   flex-grow: 1; 
+}

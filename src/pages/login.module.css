@@ -1,0 +1,42 @@
+.formr{
+    background-color: thistle;
+    width:300px;
+    height:300px;
+    border: 1px solid thistle; 
+    margin:auto; 
+    margin-top: 250px;
+    padding:10px 50px 50px 50px;
+    box-sizing: border-box;
+}
+
+input{
+    padding:5px;
+    border: 2px solid rgba(128, 128, 128, 0.007);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top:20px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+    color:white;
+    font-size: 1rem;
+    
+}
+
+h3{
+    padding:0px;
+    margin:0px;
+    margin-bottom: 20px;
+    width:100%;
+    color: indianred;
+    display:block;
+    font-size: 2rem;
+}
+
+label{
+    color:grey;
+}

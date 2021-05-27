@@ -1,0 +1,68 @@
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width : 350px;
+    flex-direction: column;
+    border: 1px solid rgba(235, 233, 233, 0.185);
+    float:right;
+    background-color: lavender;
+}
+
+.container1{
+    position: relative;
+    height:90vh;
+    overflow-y:auto; 
+}
+
+.header {
+    background-color: rgba(71, 71, 214, 0.788);;
+    width: 350px;
+    height:10vh;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 25px;
+    position: sticky;
+    color:white;
+    font-size: 1.5rem;
+    padding:20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: whitesmoke;
+    width: 270px;
+    height:300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.imgcar{
+    width: 270px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*css for transparent scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background:whitesmoke;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:rgba(0, 0, 0, 0.479);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(163, 162, 162);
+}

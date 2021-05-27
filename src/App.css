@@ -1,0 +1,37 @@
+.container {
+  display:flex;
+ }
+
+.item1{
+  background-color: rgba(71, 71, 214, 0.788);
+  width: 15%;
+  height:100vh;  
+}
+
+.item2 {
+  background-color: azure;
+  width:85%;
+  height:100vh;
+}
+
+.logo{
+  background-color: azure;
+  color: rgba(71, 71, 214, 0.788);
+  padding: 10px 50px;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top:20px;
+  font-size: 1.4rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.logoimg{
+  width:80px;
+  height:60px;
+  margin: 10px auto;
+  display:block;
+  padding:10px 40px;
+  background-color: white;
+  border-radius: 100px;
+}
+
