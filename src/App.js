@@ -14,6 +14,7 @@ function App() {
     <div className="container">
      <div class="item1">
           <img className="logoimg" src={logo} alt="car logo"/>
+          <p>Super Car Rocks </p>
           <button class="logo"><i>Super Cars</i> </button>
           <Navbar></Navbar>
       </div>
